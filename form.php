@@ -59,7 +59,7 @@
     <input type="reset" value="重設" />
 </form>
 <?php
-echo "hello world";
+echo "hello raymond!";
 ?>
 </body>
 </html>
