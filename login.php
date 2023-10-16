@@ -11,10 +11,10 @@
 
 <body>
 <?php
-$u_name = $_POST[$u_name];
-$password = $_POST[$password];
+$u_name = $_POST['u_name'];
+$password = $_POST['password'];
 ?>
-<p>username:<?php echo $u_name;?></p>
-<p>password:<?php echo $password;?></p>
+<p>username : <?php echo $u_name;?></p>
+<p>password : <?php echo $password;?></p>
 </body>
 </html>
