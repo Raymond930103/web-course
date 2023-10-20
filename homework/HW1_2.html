@@ -17,52 +17,31 @@
         性別：
         <input type="radio" name="gender" id="male">
         <label for="male">男</label>
-        <input type="radio" name="gendere" id="female">
-        <label for="female">女</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">女</label><br>        
 
         <label for="address"> 地址：</label>
         <input type="text" name="address" id="address" value=""/><br>
 
+        <label for="edu"> 選擇最高學歷：</label>
+        <select name="edu" id="edu" size="1">
+            <option value="elementry">小學</option>
+            <option value="middle">中學</option>
+            <option value="high">高中</option>
+            <option value="vocational">高職</option>
+            <option value="collage">大學</option>
+            <option value="master">碩士</option>
+            <option value="phD">博士</option>
+            
+        </select><br>
 
-
-
-        <label for="CPU">CPU ：</label>
-        <select name="CPU" id="CPU" size="1">
-            <option value="i9">i9</option>
-            <option value="i7">i7</option>
-            <option value="i5">i5</option>
-        </select>
-
-        <label for="RAM">RAM容量：</label>
-        <select name="ram" id="ram" size="1">
-            <option value="8G">8G</option>
-            <option value="16G">16G</option>
-            <option value="32G">32G</option>
-        </select>
-
-        <label for="GPU">顯示卡：</label>
-        <select name="gpu" id="gpu" size="1">
-            <option value="RTX 4090">rtx4090</option>
-            <option value="RTX 4080">rtx4080</option>
-            <option value="RTX 4070">rtx4070</option>
-            <option value="RTX 4070 Ti">rtx4070ti</option>
-            <option value="RTX 4060 Ti">rtx4060ti</option>
-        </select>
-
-        <label for="HD">硬碟容量：</label>
-        <select name="HD" id="HD" size="1">
-            <option value="512GB">512gb</option>
-            <option value="1T">1T</option>
-            <option value="2T">2T</option>
-            <option value="4T">4T</option>
-        </select>
-
-        <label for="power">電源供應器：</label>
-        <select name="power" id="power" size="1">
-            <option value="450w">450w</option>
-            <option value="550w">550w</option>
-            <option value="750w">750w</option>
-            <option value="1000w">1000w</option>
+        <label for="income">選擇年收入：</label>
+        <select name="income" id="income" size="1">
+            <option value="540k">53萬以下臺幣</option>
+            <option value="540-1210k">54~121萬臺幣</option>
+            <option value="1210-2420k">121~242萬臺幣</option>
+            <option value="2420-453k">242~453萬臺幣</option>
+            <option value="453k">453萬臺幣</option>
         </select>
 
         <br><input type="submit" value="送出" />
